@@ -18,7 +18,7 @@ export default {
     }
   },
   mounted() {
-    fetch('http://localhost:3000/contracts', {
+    fetch('https://iulek-prostoreapi-6fca.twc1.net/contracts', {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify({idEmployee: localStorage.getItem("idEmployee")})
