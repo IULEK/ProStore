@@ -71,7 +71,7 @@ export default {
             }
         },
         to_step_3() {
-            fetch('http://localhost:3000/complete_contract', {
+            fetch('https://iulek-prostoreapi-6fca.twc1.net/complete_contract', {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify({idContract: this.data.idContract})
