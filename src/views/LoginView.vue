@@ -21,7 +21,7 @@ export default {
                 login: this.login,
                 password: this.password
             }
-            fetch('http://localhost:3000/auth', {
+            fetch('https://iulek-prostoreapi-6fca.twc1.net/auth', {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(data)
